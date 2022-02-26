@@ -1,0 +1,14 @@
+[debug] [2022-02-26T14:44:34.683Z] ----------------------------------------------------------------------
+[debug] [2022-02-26T14:44:34.686Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2022-02-26T14:44:34.687Z] CLI Version:   10.2.0
+[debug] [2022-02-26T14:44:34.687Z] Platform:      darwin
+[debug] [2022-02-26T14:44:34.687Z] Node Version:  v14.16.1
+[debug] [2022-02-26T14:44:34.689Z] Time:          Sat Feb 26 2022 15:44:34 GMT+0100 (West Africa Standard Time)
+[debug] [2022-02-26T14:44:34.689Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-26T14:44:34.801Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-26T14:44:34.801Z] > authorizing via signed-in user (oluwaseunolubiyione@gmail.com)
+[debug] [2022-02-26T14:44:34.802Z] [iam] checking project os-devi for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-02-26T14:44:34.804Z] > refreshing access token with scopes: []
+[debug] [2022-02-26T14:44:34.805Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>

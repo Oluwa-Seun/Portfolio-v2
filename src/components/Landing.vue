@@ -34,6 +34,24 @@
       <h3 class="main">Projects</h3>
       <h2 class="mt-1 subtitle">Recent Work</h2>
     </div>
+
+    <div class="row mt-4" style="margin-bottom: 50px; margin-top: 100px">
+      <div class="col-sm-6 align-self-center order-first">
+        <div class="text-center">
+          <img src="../assets/musicplus.png" alt="Sheck Invoice App" class="img-fluid" width="200" height="200" style="border-radius: 20px;">
+        </div>
+      </div>
+      <div class="col-sm-6 align-self-center">
+        <h3 class="product-name">Musik Plus</h3>
+        <p class="product-info">Musik Plus is an online streaming platform where users can stream amazing music for free,its also a PWA which means you can also download it on your device and and still be able to access it ofline.</p>
+        <a rel="noreferrer" target="_blank" href="https://musik-plus.web.app" style="text-decoration: none">
+          <h2 class="link-custom">
+            Visit Website
+          </h2>
+             </a>
+      </div>
+    </div>
+
     <div class="row mt-4" style="margin-bottom: 50px;">
     <div class="col-sm-6 align-self-center order-lg-first">
       <h3 class="product-name">Tcvd19</h3>
