@@ -1,51 +1,53 @@
 {
-    "name": "osdev-portfolio",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-        "serve": "vue-cli-service serve",
-        "build": "vue-cli-service build",
-        "lint": "vue-cli-service lint"
+  "name": "osdev-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^5.0.1",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.15.8",
+    "postcss-loader": "^3.0.0",
+    "register-service-worker": "^1.7.2",
+    "vue": "^2.6.11",
+    "vue-meta": "^2.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.1.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-pwa": "^4.5.15",
+    "@vue/cli-service": "^4.5.12",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
     },
-    "dependencies": {
-        "@popperjs/core": "^2.11.2",
-        "bootstrap": "^5.0.1",
-        "core-js": "^3.6.5",
-        "nuxt": "^2.15.8",
-        "postcss-loader": "^3.0.0",
-        "vue": "^2.6.11",
-        "vue-meta": "^2.4.0"
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
     },
-    "devDependencies": {
-        "@tailwindcss/postcss7-compat": "^2.1.0",
-        "@vue/cli-plugin-babel": "~4.5.0",
-        "@vue/cli-plugin-eslint": "~4.5.0",
-        "@vue/cli-service": "^4.5.12",
-        "babel-eslint": "^10.1.0",
-        "eslint": "^6.7.2",
-        "eslint-plugin-vue": "^6.2.2",
-        "vue-template-compiler": "^2.6.11"
-    },
-    "eslintConfig": {
-        "root": true,
-        "env": {
-            "node": true
-        },
-        "extends": [
-            "plugin:vue/essential",
-            "eslint:recommended"
-        ],
-        "parserOptions": {
-            "parser": "babel-eslint"
-        },
-        "rules": {}
-    },
-    "optionalDependencies": {
-        "fsevents": "*"
-    },
-    "browserslist": [
-        "> 1%",
-        "last 2 versions",
-        "not dead"
-    ]
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "optionalDependencies": {
+    "fsevents": "*"
+  }
 }
